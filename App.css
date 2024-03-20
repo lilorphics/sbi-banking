@@ -1,0 +1,18 @@
+/* App.css */
+
+/* Light mode styles */
+:root {
+  --background-color: white;
+  --text-color: #292075;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  --background-color: #e0e0e0 ;
+  --text-color: #292075;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

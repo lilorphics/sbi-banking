@@ -1,0 +1,32 @@
+.styles.logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+#im3{
+  width: 181px;
+  height: 105px;
+  margin-top: -190px;
+  margin-left: 1180px ;
+}
+
+#d1{
+  width: 181px;
+  height: 75px;
+  margin-left: 10px ;
+}
+#im2{
+  width: 450px;
+  height: 75px;
+  margin-top: -170px;
+  margin-left: 495px;
+}
+
+#im1{
+width: 200px;
+height: 60px;
+margin-top: 18px;
+margin-left: 50px;
+}

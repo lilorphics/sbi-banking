@@ -1,0 +1,38 @@
+.faq-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .faq-list {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .faq-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-item h2 {
+    margin-bottom: 10px;
+  }
+  
+  .faq-item p {
+    margin-top: 0;
+  }
+  

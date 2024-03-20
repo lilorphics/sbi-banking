@@ -1,0 +1,51 @@
+.banking-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .personal-banking {
+    width: 40%; /* Reduce the width to make space for text */
+    margin-right: 20px; /* Add margin to separate from the details */
+  }
+  .personal-banking h1{
+    margin-left: 50px;
+    font-size: 45px;
+  }
+  .personal-banking img {
+    width: 400px;
+    height: 300px;
+    margin-left: 190px;
+  }
+  
+  .banking-details {
+    width: 55%; /* Increase the width to accommodate details */
+  }
+  
+  .banking-details h2 {
+    margin-top: 120px; /* Remove the default margin */
+    margin-bottom: 20px; /* Add margin at the bottom */
+  }
+  
+  .banking-details p {
+    margin-top: 0; /* Remove the default margin */
+    margin-bottom: 20px; /* Add margin at the bottom */
+  }
+  
+  .banking-details ul {
+    padding-left: 20px;
+    margin-top: 5px; 
+    margin-bottom: 10px;
+  }
+  
+  .banking-details li {
+    margin-bottom: 10px;
+  }
+  .ban{
+    margin-top: 50px;
+  }
+  .c1{
+    margin-top: 10px;
+  }

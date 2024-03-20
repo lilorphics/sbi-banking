@@ -1,0 +1,81 @@
+.footer {
+  background-color: #292075; /* Deep blue background */
+  color: #ffffff; /* White text color */
+  padding: 30px 0;
+  text-align: center; /* Center align the content for the entire footer */
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Space around the footer sections */
+}
+
+.footer-section {
+  flex: 1;
+  margin-bottom: 20px; /* Ensure consistent margin at the bottom of each section */
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: 30px; /* Align section titles to the left */
+  margin-right: 70px; /* Adjust based on your layout needs */
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left; /* Align list items to the left */
+}
+
+.footer-section ul li {
+  margin-bottom: 5px; /* Space between list items */
+  margin-left: 60px; /* Indent list items */
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #ffffff; /* White text for links */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.footer-section ul li a:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+.footer-disclaimer {
+  display: block; /* Change from 'contents' to 'block' for better control */
+  font-weight: bold; /* Use 'font-weight' for bold text */
+  color: #ffffff; /* White text color */
+  margin-top: 20px;
+  padding: 20px; /* Added padding for spacing */
+  background-color: #1e1e70; /* Slightly darker background for contrast */
+  text-align: left; /* Align disclaimer text to the left */
+}
+
+.footer-bottom {
+  display: flex;
+  margin-bottom: -25px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #00b5ef; /* Slightly darker shade for the bottom area */
+  color: white;
+}
+.copyright{
+  margin-left: 20px;
+}
+.social-media{
+  margin-right: 20px;
+}
+.social-media a {
+  margin: 0 10px;
+  color: white;
+  font-size: 24px; /* Icon size */
+}
+
+.social-media a:hover {
+  color: #ccc; /* Light grey for hover effect */
+}

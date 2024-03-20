@@ -1,0 +1,39 @@
+.user-manual-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .user-manual-container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .user-manual-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .user-manual-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-manual-container li {
+    margin-bottom: 10px;
+  }
+  
+  .user-manual-container a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s; /* Add transition effect for color change */
+  }
+  
+  .user-manual-container a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Change color on hover */
+  }
+  

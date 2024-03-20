@@ -1,0 +1,26 @@
+
+.footer-bottom {
+    display: flex;
+    margin-bottom: -25px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #00b5ef; /* Slightly darker shade for the bottom area */
+    color: white;
+  }
+  .copyright{
+    margin-left: 20px;
+  }
+  .social-media{
+    margin-right: 20px;
+  }
+  .social-media a {
+    margin: 0 10px;
+    color: white;
+    font-size: 24px; /* Icon size */
+  }
+  
+  .social-media a:hover {
+    color: #ccc; /* Light grey for hover effect */
+  }
+  

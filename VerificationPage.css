@@ -1,0 +1,66 @@
+.verification-page {
+    display: flex;
+    width: auto;
+    height: 350px;
+    background-color: #ffffff;
+    
+  }
+  
+  .sbi-logo-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .sbi-logo {
+    width: 50px;
+    height: auto;
+  }
+  
+  .verification-container {
+    width: 300px;
+    margin-top: 2px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    border-width: 5px;
+    border-color: #292075;
+  }
+  
+  .verification-container h2 {
+    color: #00b5ef;
+  }
+  
+  .otp-input-container {
+    margin-bottom: 20px;
+  }
+  
+  .otp-input-container p {
+    margin-bottom: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+    font-size: 0.8rem;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: darkorange;
+  }
+  
+  .verification-container p:last-child {
+    margin-top: 15px;
+  }
+  

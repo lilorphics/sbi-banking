@@ -1,0 +1,47 @@
+/* Menu.css */
+.menu {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.menu__label {
+  font-size: 24px;
+  color: #ffffff;
+  margin-left: 30px;
+}
+
+.menu__dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 300px;
+  background-color: #ffffff;
+  border: 2px solid #f2f2f2;
+  list-style: none;
+  padding: 10px;
+  margin: 2.5px 10px;
+  z-index: 1;
+}
+
+.menu__dropdown li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu__dropdown li:hover {
+  background-color: #f2f2f2;
+}
+
+.menu__dropdown li:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.menu__dropdown li a {
+  text-decoration: none;
+  color: #000000; 
+}
+
+.menu__dropdown li a:hover {
+  color: #007bff; 
+}
